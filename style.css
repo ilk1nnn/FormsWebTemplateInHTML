@@ -1,0 +1,958 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header Start */
+
+header {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.digit {
+    display: inline-block;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+
+.title {
+    display: inline-block;
+    text-align: center;
+    margin-top: auto;
+}
+
+.title>h1 {
+    color: black;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: -50px;
+    font-size: 130px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.title>p {
+    color: black;
+    display: block;
+    text-align: left;
+    margin: auto;
+    margin-top: -50px;
+    font-size: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.downladbutton {
+    text-align: left;
+    background-color: #f34b4b;
+    width: 30%;
+    padding: 10px;
+}
+
+
+h1>sup>sup {
+    background-color: #f34b4b;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: auto;
+    padding: 5px 20px;
+    margin-left: -40px;
+    border: 2px solid #f34b4b;
+}
+
+.freesection>p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.downladbutton>p {
+    color: white;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-left: 0;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.digit>h1 {
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 400px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+/* Header End */
+
+
+.outer-section {
+    display: flex;
+    justify-content: center;
+    background-color: #8dc6cd;
+}
+
+.inner-section {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.rectangle > img{
+    text-align: left;
+    margin: auto;
+}
+
+
+.outer-section2{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.inner-section2{
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.outer-section3{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.inner-section3{
+    text-align: center;
+    background-color: white;
+    padding: 50px 150px;
+    margin-bottom: 40px;
+}
+
+.s1title {
+    text-align: left;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+.s1title2 {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 25px;
+}
+
+
+.inner-section>section {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+.rectangle {
+    padding: 5% 40%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+.rectangle3 {
+    padding: 20px 120px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+.rectangle2 {
+    padding: 3% 5%;
+    display: block;
+    text-align: left;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+.submitsect{
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+.submitsect > p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+
+
+
+.inlineblock{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.roundedrectangle {
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.font3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    text-align: left;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.signupbtn {
+    background-color: #ec4949;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+
+
+}
+
+
+.signupbtn > p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.font {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.font2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+.s2title{
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    margin: auto;
+    display: block;
+    color: white;
+    padding:70px 80px;
+}
+
+
+.s2title{
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    margin: auto;
+    display: block;
+    color: white;
+    padding:50px 60px;
+}
+
+.s2title2{
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: black;
+    padding: 25px 60px;
+}
+
+.text{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    margin: auto;
+    display: block;
+    color: white;
+    padding: 10px 60px;
+}
+
+
+.twitterorfacebook{
+    text-align: center;
+    margin: auto;
+}
+
+
+.twitterorfacebook > img{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    
+
+}
+
+
+
+.textblack{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: black;
+    margin-bottom: 50px;
+
+}
+
+.textblack5{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    display: block;
+    color: black;
+    margin-bottom: 50px;
+
+}
+
+.textblack2{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    margin: auto;
+    display: block;
+    color: black;
+    margin-bottom: 50px;
+
+}
+
+.secondsignup{
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+
+
+.s-2{
+    background-color: #171717;
+}
+
+
+
+.s-3{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.s-3 > section{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+
+hr{
+    width: 20%;
+}
+
+.bluelogin{
+    background-color: #34b7ce;
+}
+
+
+.bluelogin > *{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.circle {
+    height: 50px;
+    border-width: 3px;
+    border-radius: 50%;
+    border-color: black;
+    background-color: white;
+  }
+  
+  
+
+.firsthalf{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.firsthalf2{
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.firsthalf>img{
+    padding: 15px;
+}
+
+
+
+.secondhalf{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.secondhalf2{
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+
+.s-4{
+    background-color: #374954;
+}
+
+
+
+.differentcolorrectangle{
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+}
+
+
+.loginrectangle{
+    background-color: #6bbe92;
+    padding: 40px 150px;
+    float: left;
+}
+
+
+.loginrectangle > b{
+    font-size: 35px;
+}
+
+.registerrectangle > b{
+    font-size: 35px;
+}
+
+.registerrectangle{
+    padding: 40px 110px;
+
+    background-color: #707c84;
+    float: right;
+}
+
+
+
+.circle{
+    border-radius: 50%;
+    padding: 10px 60px 80px 80px;
+    background-color: #6bbe92;
+    position: absolute;
+    left: 50%;
+    margin-left: -52px;
+    margin-top: -7px;
+}
+
+
+
+
+.s-5{
+    background-color: #818c93;
+}
+
+
+@media only screen and (width:768px) and (height:1024px){
+    .title>h1 {
+        color: black;
+        text-align: center;
+        margin: auto;
+        font-size: 40px;
+        margin-top: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+    .title>p {
+        color: black;
+        text-align: left;
+        margin: auto;
+        font-size: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+  
+
+    hr{
+        width: 50%;
+    }
+
+    .downladbutton {
+        text-align: left;
+        background-color: #f34b4b;
+        padding: 5px;
+        width: 50%;
+    }
+
+
+    h1>sup>sup {
+        background-color: #f34b4b;
+        border-radius: 20px;
+        font-size: 4px;
+        margin: auto;
+        padding: 2px 8px;
+        border: 2px solid #f34b4b;
+    }
+
+
+
+    .downladbutton>p {
+        color: white;
+        text-align: center;
+        margin: auto;
+        margin-left: 0;
+        font-size: 8px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .digit>h1 {
+        color: black;
+        text-align: center;
+        margin: auto;
+        font-size:150px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .loginrectangle{
+        background-color: #6bbe92;
+        padding: 20px 40px;
+        float: left;
+    }
+    
+    .loginrectangle > b{
+        font-size: 15px;
+    }
+    
+    .registerrectangle > b{
+        font-size: 15px;
+    }
+    
+
+    .registerrectangle{
+        padding: 20px 20px;
+        background-color: #707c84;
+        float: right;
+    }
+
+    .rectangle3{
+        padding: 20px 100px;
+    }
+    
+    
+    
+    .circle{
+        border-radius: 50%;
+        padding: 10px 20px 20px 60px;
+        background-color: #6bbe92;
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        margin-top: -7px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width:600px) and (max-height:1100px) {
+    .title>h1 {
+        color: black;
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+        margin-top: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+ 
+
+    .title>p {
+        color: black;
+        text-align: left;
+        margin: auto;
+        font-size: 15px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+    .loginrectangle{
+        background-color: #6bbe92;
+        padding: 20px 40px;
+        float: left;
+    }
+    
+    .loginrectangle > b{
+        font-size: 15px;
+    }
+    
+    .registerrectangle > b{
+        font-size: 15px;
+    }
+    
+
+    .registerrectangle{
+        padding: 20px 20px;
+        background-color: #707c84;
+        float: right;
+    }
+
+    .rectangle3{
+        padding: 20px 100px;
+    }
+    
+    
+    
+    .circle{
+        border-radius: 50%;
+        padding: 10px 20px 20px 60px;
+        background-color: #6bbe92;
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        margin-top: -7px;
+    }
+    
+
+
+    hr{
+        width: 50%;
+    }
+
+    .downladbutton {
+        text-align: left;
+        background-color: #f34b4b;
+        padding: 5px;
+        width: 50%;
+    }
+
+
+    h1>sup>sup {
+        background-color: #f34b4b;
+        border-radius: 20px;
+        font-size: 4px;
+        margin: auto;
+        padding: 2px 8px;
+        border: 2px solid #f34b4b;
+    }
+
+
+
+    .downladbutton>p {
+        color: white;
+        text-align: center;
+        margin: auto;
+        margin-left: 0;
+        font-size: 8px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .digit>h1 {
+        color: black;
+        text-align: center;
+        margin: auto;
+        font-size: 85px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+
+    .s1title {
+        text-align: left;
+        margin: auto;
+        margin-top: 0;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    
+    
+    .inner-section>section {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    
+    
+    
+    
+    .rectangle {
+        padding: 5% 50%;
+        display: block;
+        text-align: center;
+        margin: auto;
+        border: 2px solid black;
+    }
+    
+    
+    .inlineblock{
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        margin-right: 15px;
+    }
+    
+    .roundedrectangle {
+        width: 10px;
+        height: 10px;
+        background-color: gray;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .font3 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        display: inline-block;
+        text-align: center;
+        font-weight: bolder;
+        margin: auto;
+    }
+    
+    .signupbtn {
+        background-color: #ec4949;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+    
+    
+    }
+    
+    
+    .signupbtn > p{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        display: inline-block;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        padding: 8px;
+        font-weight: bolder;
+        margin: auto;
+    }
+    
+    .font {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    
+    .font2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+}
+
+
+
+@media only screen and (min-height:1100px) {
+    .title>h1 {
+        color: black;
+        text-align: center;
+        margin: auto;
+        font-size: 35px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+    .title>p {
+        color: black;
+        text-align: left;
+        margin: auto;
+        font-size: 25px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+    .downladbutton {
+        text-align: left;
+        background-color: #f34b4b;
+        padding: 5px;
+        width: 50%;
+    }
+
+
+    h1>sup>sup {
+        background-color: #f34b4b;
+        border-radius: 20px;
+        font-size: 10px;
+        margin: auto;
+        padding: 2px 8px;
+        border: 2px solid #f34b4b;
+    }
+
+
+
+    .downladbutton>p {
+        color: white;
+        text-align: center;
+        margin: auto;
+        margin-left: 0;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .digit>h1 {
+        color: black;
+        text-align: center;
+        margin: auto;
+        font-size: 140px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .loginrectangle{
+        background-color: #6bbe92;
+        padding: 20px 110px;
+        float: left;
+    }
+    
+    .loginrectangle > b{
+        font-size: 15px;
+    }
+    
+    .registerrectangle > b{
+        font-size: 15px;
+    }
+    
+
+    .registerrectangle{
+        padding: 20px 100px;
+        background-color: #707c84;
+        float: right;
+    }
+
+    .rectangle3{
+        padding: 20px 100px;
+    }
+    
+    
+    
+    .circle{
+        border-radius: 50%;
+        padding: 10px 20px 20px 60px;
+        background-color: #6bbe92;
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        margin-top: -7px;
+    }
+    
+}
